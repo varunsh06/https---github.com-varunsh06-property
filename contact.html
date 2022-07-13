@@ -137,131 +137,10 @@
                 </div>
             </div>
             <!-- Page Header End -->
-            <form action="" method="post">
-      <input required class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="email" placeholder="Your email" name="email">
-      <input required class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your message" name="message">
-
-      <button type="submit" name="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Send!</button>
-  </form>
-
-  <?php
-    if (isset($_POST['submit'])) {
-        //////
-
-
-        $mailto = "varun.sharmaa06@gmail.com";
-        //to take the value of the input form using name attribute in the form 
-
-
-
-
-        ///////
-
-        if (empty($_POST["email"])) {
-            $errMsg = "Error! You didn't enter the email";
-            echo $errMsg;
-        } else {
-            $fromEmail = $_POST["email"];
-
-            $pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^";
-
-
-
-            if (!preg_match($pattern, $fromEmail)) {
-                $ErrMsg = "Email is not valid.";
-                echo $ErrMsg;
-            } else {
-
-
-                $message = "Client Email: " . $fromEmail . "\n";
-
-
-                $subject = "Client Sent You His email";
-
-
-
-                $headers = "From: " . $fromEmail; // Client email,I will receive
-                $result1 = mail($mailto, $subject, $message, $headers);
-            }
-        }
-
-        
-        if (empty($_POST["message"])) {
-            $errMsg = "Error! You didn't enter the message";
-            echo $errMsg;
-        } else {
-            $fromMessage = $_POST["message"];
-
-            $pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^";
-
-
-
-            if (!preg_match($pattern, $fromMessage)) {
-                $ErrMsg = "Email is not valid.";
-                echo $ErrMsg;
-            } else {
-
-
-                $message = "Client Email: " . $fromMessage . "\n";
-
-
-                $subject = "Client Sent You His Enquiry";
-
-
-
-                $headers = "From: " . $fromEmail; // Client email,I will receive
-                $result1 = mail($mailto, $subject, $message, $headers);
-            }
-        }
-        //////
-
-
-
-
-
-
-
-
-
-
-        // if ($result1) {
-        //     $success = "Your Message was sent Successfully!";
-        // } else {
-        //     $failed = "Sorry! Message was not sent, Try again Later.";
-        // };
-
-
-        //if count is zero it means the user already does not exist . So run sql query to save data from user 
-        // $sql =
-        //     "INSERT INTO usercontact SET 
-        //    name = '$name',
-        //     email = '$email',
-        //     subject = '$subject',
-        //     message = '$message'
-        //     ";
-
-
-
-
-        // $res = mysqli_query($conn, $sql);
-
-
-
-        // if ($res == true) {
-
-        //     $_SESSION['contact'] = "thanks";
-        // } else {
-
-
-        //     $_SESSION['add'] = "faild to add the admin";
-        // }
-
-    }
-
-    ?>
+             
 
             <!-- Contact Start -->
-            <!-- <div class="contact wow fadeInUp">
+           <div class="contact wow fadeInUp">
                 <div class="container">
                     <div class="section-header text-center">
                         <p>Get In Touch</p>
@@ -321,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>  
             <!-- Contact End -->
 
 
