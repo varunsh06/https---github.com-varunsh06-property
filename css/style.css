@@ -193,7 +193,10 @@ a:focus {
     color: #fdbe33;
     transition: none;
 }
-
+.btn:hover {
+    color: #212529 !important;
+    text-decoration: none;
+}
 .nav-bar .dropdown-menu {
     margin-top: 0;
     border: 0;
