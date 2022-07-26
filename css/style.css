@@ -226,7 +226,10 @@ a:focus {
     .nav-bar .navbar {
         padding: 20px;
     }
-    
+    .tay{
+        padding-left: 516px !important;
+
+    }
     .nav-bar .navbar-brand {
         display: none;
     }
