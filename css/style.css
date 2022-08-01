@@ -7,7 +7,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-
+.commer{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 800;
+}
 h1,
 h2, 
 h3, 
