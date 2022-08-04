@@ -108,10 +108,17 @@ a:focus {
     line-height: 60px;
     font-weight: 700;
 }
+@media (min-width: 992px){
+    .d-lg-block {
+        display: block !important;
+        padding-bottom: 42px !important;
+    }
+}
 
 .top-bar .logo img {
-    max-width: 100%;
-    max-height: 60px;
+    /* max-width: 100%;
+    max-height: 60px; */
+    height: 150px;
 }
 
 .top-bar .top-bar-item {
