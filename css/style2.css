@@ -980,35 +980,6 @@ h3 {
   height: 100px;
 }
 
-/* line 19, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_header.scss */
-.header-area .main-header-area .logo {
- /* background: #ff2424;*/
-  text-align: center;
-  padding: 4px 0;
-  margin-right: 146px;
-}
-ul#navigation {
-    margin-top: 25px;
-    margin-left: 27px;
-}
-
-@media (max-width: 767px) {
-  /* line 19, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo {
-   
-    text-align: left;
-    background: transparent;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 19, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo {
-    padding: 15px;
-    text-align: left;
-    background: transparent;
-  }
-}
 
 @media (max-width: 767px) {
   /* line 17, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_header.scss */
@@ -2242,7 +2213,7 @@ ul#navigation {
 }
 
 /* line 32, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_footer.scss */
-.footer .footer_top .footer_widget .footer_logo {
+.footer .footer_top .footer_widget .footer_pogo {
   font-size: 22px;
   font-weight: 400;
   color: #FFFFFF;
@@ -2253,7 +2224,7 @@ ul#navigation {
 
 @media (max-width: 767px) {
   /* line 32, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_footer.scss */
-  .footer .footer_top .footer_widget .footer_logo {
+  .footer .footer_top .footer_widget .footer_pogo {
     margin-top: 20px;
   }
 }
@@ -6664,7 +6635,7 @@ form .btn button{
     margin-right: 77px;
         padding-bottom: 10px;
 }
-.header-area .main-header-area .logo {
+.header-area .main-header-area .pogo {
    
 }
 /*.icons a {
@@ -7015,7 +6986,7 @@ form .btn button{
     margin-bottom: 46px;
 }
 
-.logo a img {
+.pogo a img {
     width: 100px;
     height: auto;
     margin-top: 20px;
@@ -7409,7 +7380,7 @@ section.floo {
     
   }
 
-  #logo_sizing{
+  #pogo_sizing{
     height: 100px !important;
     width: auto;
   }
