@@ -12,6 +12,16 @@ body {
     font-size: 29px;
     font-weight: 800;
 }
+.icons {
+    position: fixed;
+    top: 32%;
+    right: 0%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translate(261px, 0);
+}
 h1,
 h2, 
 h3, 
